@@ -1,0 +1,26 @@
+#menu
+{
+    height: 100%;
+    width: 20%;
+    background-color: aqua;
+}
+
+#menu .menu-items li
+{
+    list-style: none;
+}
+
+.lien
+{
+    text-decoration: none;
+}
+
+.sous-menu li
+{
+    list-style: none;
+}
+
+.sous-menu li a
+{
+    text-decoration: none;
+}

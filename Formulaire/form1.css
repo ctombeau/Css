@@ -1,0 +1,162 @@
+.container
+{
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  mettre au centre de la page*/
+
+    margin: auto;
+    width: 800px;
+    
+}
+
+/*  header */
+header{
+    display:flex;
+    flex-direction: row;
+
+
+}
+
+#logo
+{
+    margin-right: 20px;
+}
+
+#entete
+{
+    
+}
+
+.nav{
+    background-color: #262db4;
+    width: 600px;
+    margin-bottom: 0px;
+}
+
+#entete .nav ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#entete .nav ul li 
+{
+    margin-right: 20px;
+    list-style: none;
+}
+
+#entete .nav ul li a
+{
+    color : white;
+    text-decoration: none;
+}
+
+#iden
+{
+    color:#262db4;
+    font-weight: bold;
+}
+
+#aide
+{
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.souligne
+{
+    width: 750px;
+    height: 5px;
+    background-color: #262db4;
+    margin-top: 10px;
+}
+
+/* Body */
+
+.body
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#insc
+{
+    color: #262db4;
+    font-weight: bold;
+}
+
+.text .info
+{
+    font-size: 13px;
+}
+
+.form{
+    border: 2px solid #262db4;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 160px;
+    margin-top: 30px;
+}
+
+.input
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.input label
+{
+    font-weight: bold;
+    margin-right: 30px;
+    width: 200px;
+
+}
+
+.input input
+{
+    height: 20px;
+}
+
+.input .text
+{
+    width: 100px;
+}
+
+.input .email
+{
+    width: 300px;
+}
+
+.input .button button
+{
+    background-color: #262db4;
+    color: white;
+    border-radius: 5px;
+}
+
+/* footer */
+
+.souligne-header
+{
+    width: 750px;
+    height: 1px;
+    background-color: #262db4;
+    margin-top: 30px;
+}
+
+.text-header 
+{
+    text-align: center;
+}
+
+.text-header p strong
+{
+    font-size: 20px;
+}
