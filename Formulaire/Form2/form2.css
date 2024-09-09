@@ -1,0 +1,26 @@
+body{
+    background-color: gainsboro;
+}
+
+.container{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+#logo img{
+    height: 70px;
+    width: 70px;
+    margin-left: 40px;
+    padding-right: 40px;
+    border-right: 1px solid #00008B;
+}
+
+#text-header{
+    margin-left: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
