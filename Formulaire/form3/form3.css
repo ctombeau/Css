@@ -1,0 +1,22 @@
+.titre{
+	text-align: center;
+}
+
+.form{
+	width: 50%;
+	margin: auto;
+	padding: auto;
+}
+
+.fs{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
